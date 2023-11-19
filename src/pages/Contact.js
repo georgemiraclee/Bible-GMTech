@@ -4,7 +4,7 @@ import {
   WhatsAppOutlined,
   GithubOutlined,
   MailFilled,
-  TwitterCircleFilled,
+  LinkedinOutlined,
 } from '@ant-design/icons';
 
 const { TabPane } = Tabs;
@@ -18,16 +18,16 @@ const Contact = () => {
         marginLeft: '-1.2rem',
       }}
     >
-      <TabPane tab='Contact' key='3'>
+      <TabPane tab='Kontak' key='3'>
         <Divider>
-          <h4> Contact</h4>
+          <h4> Kontak</h4>
         </Divider>
 
         <div className='contact-us'>
           <p>
             <WhatsAppOutlined />
             <a
-              href='https://wa.me/628118750400'
+              href='https://wa.me/6285377640809'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -38,7 +38,7 @@ const Contact = () => {
           <p>
             <MailFilled />
             <a
-              href='mailto:wbs@bpjs-kesehatan.go.id'
+              href='mailto:georgemiracle2019@gmail.com'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -48,12 +48,12 @@ const Contact = () => {
 
           <p>
             <GithubOutlined />
-            <a href='#!'>Github</a>
+            <a href='https://github.com/georgemiraclee/'>Github</a>
           </p>
 
           <p>
-            <TwitterCircleFilled />
-            <a href='#!'>Twitter </a>
+          <LinkedinOutlined />
+            <a href='https://www.linkedin.com/in/georgemiracle/'>LinkedIn </a>
           </p>
         </div>
       </TabPane>

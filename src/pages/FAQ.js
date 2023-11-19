@@ -1,11 +1,6 @@
 import React from 'react';
 import { Divider, Tabs } from 'antd';
-import {
-  WhatsAppOutlined,
-  GithubOutlined,
-  MailFilled,
-  TwitterCircleFilled,
-} from '@ant-design/icons';
+
 
 const { TabPane } = Tabs;
 
@@ -25,15 +20,14 @@ const FAQ = () => {
         <div className='faq-about'>
           <ul>
             <li>
-              <h3>Is it free to use?</h3>
-              <p>Yes, it is free to use.</p>
+              <h3>Apakah ini gratis?</h3>
+              <p>Ya, ini gratis dan siap dipakai.</p>
             </li>
             <li>
-              <h3>How to use it?</h3>
+              <h3>Bagaimana Cara memakainya?</h3>
               <p>
-                You can read the Indonesian bible in this project. You can
-                choose the version of the book you want to read you can choose
-                between{' '}
+                Anda dapat membacanya seperti layaknya membaca alkitab, anda perlu memilih Perjanjian Lama atau Baru, dan kemudian anda memilih Ayat yang dipilih
+                , anda juga dapat mengganti bahasa bahasa seperti {' '}
                 <em>
                   <strong>
                     <u>
@@ -41,49 +35,9 @@ const FAQ = () => {
                     </u>
                   </strong>
                 </em>{' '}
-                language.
               </p>
             </li>
           </ul>
-        </div>
-      </TabPane>
-      <TabPane tab='Contact' key='3'>
-        <Divider>
-          <h4> Contact</h4>
-        </Divider>
-
-        <div className='contact-us'>
-          <p>
-            <WhatsAppOutlined />
-            <a
-              href='https://wa.me/628118750400'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              WhatsApp
-            </a>
-          </p>
-
-          <p>
-            <MailFilled />
-            <a
-              href='mailto:wbs@bpjs-kesehatan.go.id'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Email
-            </a>
-          </p>
-
-          <p>
-            <GithubOutlined />
-            <a href='#!'>Github</a>
-          </p>
-
-          <p>
-            <TwitterCircleFilled />
-            <a href='#!'>Twitter </a>
-          </p>
         </div>
       </TabPane>
     </Tabs>
