@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 
 const BookItem = ({ data }) => {
-  //   console.log('🚀 ~ file: BookItem.js ~ line 4 ~ BookItem ~ data', data);
   return (
     <Fragment>
       {data &&
